@@ -19,6 +19,7 @@
       if (true) {
           let varFour = 'varFour'
       }
+    }
 
   console.log(varTwo)       // will not print
 
