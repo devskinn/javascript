@@ -39,7 +39,7 @@ console.log(bookSummaryTwo.pageCountSummary)
 let convertTemperatures = function (fahrenheit) {
     return {
         fahrenheit: fahrenheit,
-        celsius: (fahrenheit - 32) * 5/9,
+        celsius: (fahrenheit - 32) * (5/9),
         kelvin: (fahrenheit + 459.67) * (5/9)
     }
 }
