@@ -24,6 +24,6 @@ let isPasswordValid = function (password) {
     return password.length > 8 && !password.includes('password')
 }
 
-console.log(isPasswordValid('abcde'))
-console.log(isPasswordValid('MontyPython'))
-console.log(isPasswordValid('gerup2singpassword345'))
+console.log(isPasswordValid('abcde')) // fail - too short
+console.log(isPasswordValid('MontyPython')) // pass - no issues
+console.log(isPasswordValid('gerup2singpassword345')) // fail - contains word password
